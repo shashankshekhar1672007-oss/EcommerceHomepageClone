@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     font-family: Arial;
-    box-sizing: border-box;
+    border: border-box;
     color: white;
 }
 .body{
@@ -22,7 +22,7 @@
     height: 50px;
     
 }
-#logo-png{
+#amazon-logo-png{
     padding: 8px;
     height:30px;
     
@@ -87,7 +87,7 @@
     display: flex;
     align-items: center;
 }
-.search-input{
+.search-amazon{
     border: none;
     padding: 12px;
     width: 100%;
@@ -127,6 +127,8 @@
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 .cart-icon{
     border: none;         
@@ -174,7 +176,6 @@
     font-size: 14px;
     font-weight: 900;
 }
-.panel-assistant,
 .panel-rufus{
     margin: 10px;
     display: flex;
@@ -184,9 +185,8 @@
     color: black;
     border-radius: 20px;
     padding: 4.5px;
-    width: 95px;
+    width: 80px;
 }
-.assistant,
 .rufus{
     color: black;
     font-size: 14px;
