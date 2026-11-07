@@ -5,7 +5,7 @@
     color: white;
 }
 .body{
-    background-color: rgb(200, 200, 200);
+    background-color: #eaeded;
 }
 .navbar{
     height: 60px;
@@ -20,12 +20,11 @@
 }
 .nav-logo{
     height: 50px;
-    
 }
+#logo-png,
 #amazon-logo-png{
     padding: 8px;
-    height:30px;
-    
+    height: 30px;
 }
 .white-border{
     border: solid 1.5px transparent;
@@ -92,7 +91,6 @@
     padding: 12px;
     width: 100%;
     color: black;
-
 }
 .search-icon{
     border: none;         
@@ -151,14 +149,7 @@
     flex-direction: row;
     align-items: center;
 }
-
-
-
-
-
-
 .panel{
-
     height: 40px;
     width: 100%;
     background-color: #232f3e;
@@ -203,19 +194,16 @@
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-
 .background{
     position: absolute;
     z-index: -1;
-    top:-200px;
-    height: 1000px;
+    top: -150px;
+    height: 950px;
     width: 100%;
-    background: linear-gradient(to bottom , rgba(0, 0, 0, 0), rgba(200, 200, 200, 0.717)), url(background.jpg);
+    background: linear-gradient(to bottom, rgba(234, 237, 237, 0) 0%, rgba(234, 237, 237, 0) 35%, rgba(234, 237, 237, 0.65) 65%, #eaeded 95%), url(background.jpg);
     background-size: cover;
-
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 .ad{
     display: flex;
@@ -229,7 +217,6 @@
     position: absolute;
     top: 130px;
 }
-
 .suggestions-one{
     display: flex;
     position: relative;
